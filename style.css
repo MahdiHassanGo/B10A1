@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 nav{
     margin: 0 5%;
  
@@ -257,84 +260,7 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 }
-/*
-.skill-HTML{
-    align-items: flex-start;
-    margin: 150px; 
-    padding: 40px;
-    width: 364px;
-height: 299px;
-  text-align:start;
-    background: rgba(255, 76, 30, 0.05);
-  
-}
-.skill-CSS{
-    
-    margin: 150px; 
-    padding: 40px;
-    width: 364px;
-height: 299px;
-  text-align:start;
-    background: rgba(0, 76, 232, 0.05);
-  
-}
-.skill-JS{
-   
-    margin: 150px; 
-    padding: 40px;
-    width: 364px;
-height: 299px;
-  text-align:start;
-    background: rgba(255, 223, 0, 0.05);
-  
-}
-.skills-title{
-   
-display: flex;
 
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 800;
-text-align: left;
-align-items: left;
-justify-content: flex-start;
-
-
-}
-.skill-description{
-display: flex;
-flex-direction: column;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    align-items: left;
-text-align: left;
-}
-.skills-container{
-
-    display: flex;
-   justify-content: space-around;
-   align-items: flex-start;
-   padding: 20px;
-}
-
- 
-.skill{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    text-align: center;
-
-}
-
-*/
 .skill{
     display: flex;
     flex-direction: column;
@@ -394,4 +320,68 @@ text-align: left;
 .skill img{
     align-self: flex-start;
     margin-bottom: 10px;
+}
+.Handshake-Container{
+    background-image: url("./assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-left: 10%;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 314px;
+    left: 150px;
+    right: 150px;
+    top: 4752px;
+    bottom: 179px;
+    padding: 20px;
+}
+.Handshake-Content h2{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+}
+.Handshake-Content p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.Txt-Btn-Container button{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+border: 1px solid rgba(13, 19, 33, 0.2);
+    
+
+}
+.Txt-Btn-Container input[type="text"]
+{ margin-top: 5%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+
+  width: 548px;
+  height: 57px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
 }
