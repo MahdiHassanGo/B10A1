@@ -219,16 +219,22 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
+
 }
 .youtube-container{
-   display: flex;
+   margin-left: 30%;
+    display: flex;
+   height: 400px;
+   width: 600px;
+align-items: center;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 32px;
+   padding: 20px;
    border: 1px solid rgba(13, 19, 33, 0.2);
    border-radius: 16px;
-   margin: 48px 0px;
+
+   
    
 }
 .My-Current-target-content h2 {
@@ -251,7 +257,7 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 }
-
+/*
 .skill-HTML{
     align-items: flex-start;
     margin: 150px; 
@@ -282,21 +288,29 @@ height: 299px;
     background: rgba(255, 223, 0, 0.05);
   
 }
-.skills-container h4{
-    color: rgb(13, 19, 33);
+.skills-title{
+   
+display: flex;
+
+color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 24px;
 font-weight: 800;
+text-align: left;
+align-items: left;
+justify-content: flex-start;
+
 
 }
-.skills-container p{
+.skill-description{
 display: flex;
 flex-direction: column;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    
+    align-items: left;
+text-align: left;
 }
 .skills-container{
 
@@ -305,9 +319,7 @@ flex-direction: column;
    align-items: flex-start;
    padding: 20px;
 }
-.My-Current-anchor{
-    text-decoration: none;
-}
+
  
 .skill{
     display: flex;
@@ -319,7 +331,67 @@ flex-direction: column;
     height: 300px;
     border-radius: 10px;
     text-align: center;
-    
 
+}
+
+*/
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:20px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: left;
+}
+.skill-HTML ,.skill-CSS , .skill-JS{
   
+    padding: 40px;
+    width: 300px;
+    height: auto;
+    text-align: left;
+}
+ .skill-HTML{
+    background: rgba(255, 76, 30, 0.05);
+ }
+ .skill-CSS{
+    background: rgba(0, 76, 232, 0.05);
+ }
+ .skill-JS{
+    background: rgba(255, 223, 0, 0.05);
+ }
+ .skill-title{
+
+    display: flex;
+    color: rgb(13, 19, 33);
+    font-family:Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    align-items: left;
+    justify-content: flex-start;
+ }
+.skill-description{
+    display: flex;
+    flex-direction: column;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: flex-start;
+    text-align: left;
+
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding:20px;
+}
+.skill img{
+    align-self: flex-start;
+    margin-bottom: 10px;
 }
