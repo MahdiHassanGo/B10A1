@@ -1,0 +1,46 @@
+nav{
+    border: 2px solid red;
+    display: flex;
+    font-style:  Azeret Mono-Sans;
+    margin: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+nav h3{
+    
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 900;
+}
+
+nav ul li button {
+    list-style: none;
+    margin: 0 20px;
+    font-family: Azeret Mono;
+    width: 196px;
+    height: 23px; 
+    display: flex;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+   border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+   opacity:0.9;
+    
+}
