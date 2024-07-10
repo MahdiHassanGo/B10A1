@@ -35,6 +35,9 @@ font-family: Azeret Mono;
 font-size: 15px;
 font-weight: 900;
 }
+.footer-btn{
+    text-decoration: none;
+}
 
 nav ul li button {
     list-style: none;
