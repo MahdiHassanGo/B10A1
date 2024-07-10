@@ -49,6 +49,7 @@ nav ul li button {
 }
 
 .Group-Container{
+   
 background-image: url("./assets/Hero-bg.png");
 background-repeat: no-repeat;
 width: 1440px;
@@ -322,12 +323,13 @@ align-items: center;
     margin-bottom: 10px;
 }
 .Handshake-Container{
-    background-image: url("./assets/handshake.jpg");
+    
+    background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),url("./assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
     margin-left: 10%;
-background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -341,6 +343,7 @@ background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
     padding: 20px;
 }
 .Handshake-Content h2{
+    margin-top: 1%;
     color: rgb(255, 255, 255);
 font-family: Azeret Mono;
 font-size: 32px;
@@ -354,16 +357,20 @@ font-weight: 700;
 }
 
 .Txt-Btn-Container button{
-    border-radius: 8px;
-    background: rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-left: 5%;
+border-radius: 8px;
+background: rgb(255, 255, 255);
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+width: 120px;
+height: 58px;
 padding: 17px 20px 17px 20px;
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 20px;
+font-size: 16px;
 font-weight: 600;
 border: 1px solid rgba(13, 19, 33, 0.2);
     
@@ -385,25 +392,37 @@ border: 1px solid rgba(13, 19, 33, 0.2);
   align-items: center;
 
 }
+.Txt-Btn-Container{
+    display: flex;
+
+}
 .Footer-Container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     border-radius: 16px;
 background: rgba(13, 19, 33, 0.03);
 }
 
 .Footer-Content{
+    display: flex;
+    text-align: center;
+   margin-left: 10%;
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 12px;
 font-weight: 600;
+align-items: center;
 }
 .Logos{
+
     margin-right: 10%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
